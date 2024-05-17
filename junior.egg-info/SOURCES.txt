@@ -1,0 +1,11 @@
+pyproject.toml
+junior.egg-info/PKG-INFO
+junior.egg-info/SOURCES.txt
+junior.egg-info/dependency_links.txt
+junior.egg-info/requires.txt
+junior.egg-info/top_level.txt
+pdf/__init__.py
+pdf/database.py
+pdf/tablepdf.py
+time/__init__.py
+time/jtime.py

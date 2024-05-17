@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: junior
+Version: 1.0
+Summary: A description of your package
+Author-email: Ahsanur Rahman Sayem <business.juniormail@gmail.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fpdf2
+Requires-Dist: sympy
+Requires-Dist: pytz
+Requires-Dist: datetime

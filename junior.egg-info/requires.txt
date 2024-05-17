@@ -1,0 +1,4 @@
+fpdf2
+sympy
+pytz
+datetime
