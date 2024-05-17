@@ -1,21 +1,21 @@
 # Required Classes -
 
-from `junior.tablepdf` import `TableContentParser` as Parser
+from `junior.pdf.tablepdf` import `TableContentParser` as Parser
 
-from `junior.tablepdf` import `Runner` as runner
+from `junior.pdf.tablepdf` import `Runner` as runner
 
-# Parser Class -
+- Parser Class -
 
 parser = `Parser(name:str)`
 
 !this `name` variable is important it will be the name of the pdf output file and also the raw value file name of the doc.
 
 
-# .putKeysAndValues(heads:list,body:list) method —
+- putKeysAndValues(heads:list,body:list) method —
 
 `.putKeysAndValues(headings:list,body:list)`  - the `headings` and the `body` are the list values which will be the contents of the pdf file.
 
-# Parsing values — 
+- Parsing values — 
 Most important method to create PDF doccument.
 
 `parse()` - it parses the values given in the `.putKeysAndValues(head:list,body:list)`
@@ -23,7 +23,7 @@ Most important method to create PDF doccument.
 finally use the Runner class the create the PDF Documment.
 
 # Runner Class - 
-from `junior.tablepdf` import `Runner` as runner
+from `junior.pdf.tablepdf` import `Runner` as runner
 
 `.run(name=None,orientation=None)`
 
@@ -38,10 +38,10 @@ or pass nothing and the PORTRAIT is default orientation of the PDF doc.
 
 
 # Example -
-from `junior.tablepdf` import `TableContentParser` as `Parser`
+from `junior.pdf.tablepdf` import `TableContentParser` as `Parser`
 
 
-from `junior.tablepdf` import `Runner` as `runner`
+from `junior.pdf.tablepdf` import `Runner` as `runner`
 
 parser=`Parser("my_first_pdf_in_python")`
 
