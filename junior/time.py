@@ -40,11 +40,5 @@ def meridiemNow():
 	return _getTimeOf("%p")
 
 
-class Time:
-	def __init__(self):
-		pass
-
 if __name__ == '__main__':
-	#print(_getTimeOf("%H:%M:%S"))
-	print(now())
-	print(getutc(6))
+	pass

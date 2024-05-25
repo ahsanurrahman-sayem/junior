@@ -8,6 +8,7 @@ version = "1.0"
 authors = [
     { name = "Ahsanur Rahman Sayem", email = "business.juniormail@gmail.com" }
 ]
+
 description = "A description of your package"
 readme = "README.md"
 license = { text = "MIT" }
@@ -24,5 +25,5 @@ dependencies = [
     "datetime"
 ]
 
-[tool.setuptools.packages.find]
-where = ["."]
+[tool.setuptools.packages]
+find = {}

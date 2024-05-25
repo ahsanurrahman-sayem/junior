@@ -9,3 +9,15 @@ This package contains two module one is `pdf` and one is `time`.
 - Check <a href="https://github.com/JuniorXR/JPDF">JPDF</a> the previous version.
 
 # time module
+
+`time` module contains some simple functions to get real time values with python in a more easy way.
+
+- Functions from `junior.time` module 
+• `.now()` method returns current System time from Weekday to second in string formate.
+• `hourNow()` returns current hour.
+• `minuteNow()` returns current munite of the hour.
+• `secondNow()` returns current second of the minute.
+
+• `getWeekDayName()` returns the name of current weekday.
+• `getMonthName()` returns the name of current month.
+• `meridiemNow()` returns the current Meridiem of you're location.
