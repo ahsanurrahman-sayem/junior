@@ -1,7 +1,12 @@
 # Python Package
 This package contains two module one is `pdf` and one is `time`.
+To install this module in your system follow the steps below ⬇️ 
 
-- Clone this project >> `git clone https://github.com/JuniorXR/junior`
+
+- Clone this project > `git clone https://github.com/JuniorXR/junior`
+- `cd junior`
+- python -m pip install .
+
 
 # pdf module
 `pdf` module is created with <a href="https://py-pdf.github.io/fpdf2/index.html">fpdf2</a> Python Framework specifically designed to create PDF Tables with python in a more easy and efficient way.
