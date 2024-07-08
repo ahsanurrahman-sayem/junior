@@ -5,7 +5,7 @@ To install this module in your system follow the steps below ⬇️
 
 - Clone this project > `git clone https://github.com/JuniorXR/junior`
 - `cd junior`
-- python -m pip install .
+- `python -m pip install`
 
 
 # pdf module
