@@ -13,7 +13,7 @@ def now():
 	return datetime.now(utc).strftime("%H:%M:%S %p %Z %A %d %B %Y")
 
 def getUtcTextFormat(offset_hours):
-	return (datetime.now(utc)+timedelta(hours=offset_hours)).strftime(f"_%H-%M-%S-%Y_%m_%d") 
+	return (datetime.now(utc)+timedelta(hours=offset_hours)).strftime(f"_%H_%M_%S_%Y_%m_%d") 
 
 def getutc(offset_hours):
     # Get the current UTC time

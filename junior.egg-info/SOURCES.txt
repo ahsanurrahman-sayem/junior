@@ -3,7 +3,7 @@ README.md
 pyproject.toml
 junior/__init__.py
 junior/database.py
-junior/tablepdf.py
+junior/pdf.py
 junior/time.py
 junior.egg-info/PKG-INFO
 junior.egg-info/SOURCES.txt
