@@ -1,8 +1,8 @@
 # Required Classes -
 
-from `junior.pdf.tablepdf` import `TableContentParser` as Parser
+from `junior.pdf` import `TableContentParser` as Parser
 
-from `junior.pdf.tablepdf` import `Runner` as runner
+from `junior.pdf` import `Runner` as runner
 
 - Parser Class -
 
@@ -45,7 +45,7 @@ from `junior.pdf.tablepdf` import `Runner` as `runner`
 
 parser=`Parser("my_first_pdf_in_python")`
 
-parser.`putKeysAndValues(["Name","Age","Contact"],["JuniorXR","18","business.juniormail@gmail.com","JuniorXR","18","example@mail.com"])`
+parser.`putKeysAndValues("Name,Age,Contact".split(","),"JuniorXR,18,business.juniormail@gmail.com,JuniorXR,18,example@mail.com".split(","))`
 
 parser.`parse()`
 
