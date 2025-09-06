@@ -11,11 +11,11 @@ To install this module in your system follow the steps below ⬇️
 # pdf module
 `pdf` module is created with <a href="https://py-pdf.github.io/fpdf2/index.html">fpdf2</a> Python Framework specifically designed to create PDF Tables with python in a more easy and efficient way.
 
-- Official new documentation is at <a href="https://github.com/JuniorXR/junior/blob/main/pdf/README.md">here</a>.
+- Official new documentation is at <a href="https://github.com/ahsanurrahman-sayem/junior/blob/main/pdf/README.md">here</a>.
 
-- Check <a href="https://github.com/JuniorXR/JPDF">JPDF</a> the previous version.
+- Check <a href="https://github.com/ahsanurrahman-sayem/JPDF">JPDF</a> the previous version.
 
-# time module
+### `time` module
 
 `time` module contains some simple functions to get real time values with python in a more easy way.
 
